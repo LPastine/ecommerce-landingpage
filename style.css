@@ -1,0 +1,57 @@
+/* Variables */
+:root {
+  --rebel-pink: #f71963;
+  --heavy-rebel-pink: #dd1659;
+  --elite-purple: #8914cc;
+  --near-black: #3f3f40;
+  --dark-gray: #585959;
+  --mid-gray: #727273;
+  --gray: #979899;
+  --silver: #cacbcc;
+}
+
+/* Header Section */
+
+#header-home {
+  height: 100vh;
+  background-image: url(./img/hero-image.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #header-home {
+    height: 100vh;
+    width: 100%;
+    background: url("./img/hero-image-mobile.jpg") no-repeat center top;
+  }
+}
+
+h1 {
+  color: var(--rebel-pink);
+}
+
+h2 {
+  color: var(--near-black);
+}
+
+.hover-bg-lightest-blue:hover, .hover-bg-light-pink:hover {
+  background-color: var(--rebel-pink);
+}
+
+.hover-bg-light-blue:hover, .hover-bg-light-yellow:hover {
+  background-color: var(--elite-purple);
+}
+
+.bg-rebel-pink {
+  background-color: var(--rebel-pink);
+}
+
+.bg-elite-purple {
+  background-color: var(--elite-purple);
+}
+
+/* Articles Section */
+
+#subtitulo-produtos span {
+  font-weight: bold;
+}

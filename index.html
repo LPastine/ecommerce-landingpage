@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Viviane Texeira | VTEX E-Commerce de Semijoias</title>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <header id="header-home">
+        <header id="navbar" class="black-80 tc avenir">
+            <div class="flex items-center justify-center pa3 bg-rebel-pink">
+                <span class="lh-title ml3 avenir">Cadastre-se para receber o nosso cupom do BLACK
+                    FRIDAY!!!</span>
+            </div>
+            <h1 class="mt2 mb0 avenir fw2 f1">Viviane Texeira</h1>
+            <h2 class="mt2 mb3 f4 fw4 ttu tracked">VTEX E-Commerce de Semijoias</h2>
+            <nav class="bt tc mw7 center mt4">
+                <a class="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="#">Home</a>
+                <a class="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" href="#">Promoções</a>
+                <a class="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" href="#">Sobre</a>
+                <a class="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" href="#">Contato</a>
+            </nav>
+        </header>
+    </header>
+
+    <!-- Black Friday Form -->
+    <div class="pa4-l">
+        <form class="bg-rebel-pink mw7 center pa4 br2-ns ba b--black-10">
+            <fieldset class="cf bn ma0 pa0">
+                <legend class="pa0 f5 f4-ns mb3 white-80 avenir">Receba o nosso cupom do BLACK FRIDAY!!!
+                </legend>
+                <div class="cf">
+                    <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                        <label class="clip" for="email-address">E-mail</label>
+                        <div class="text-fields">
+                            <input
+                                class="avenir f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns"
+                                placeholder="Digite aqui o seu e-mail" type="text" name="email-address" value=""
+                                id="email-address">
+                            <div class="my-2">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                        </div>
+                        <input
+                            class="avenir f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-70 hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns"
+                            type="submit" value="Cadastrar-se">
+                    </form>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Articles -->
+    <header class="tc ph4 avenir">
+        <h1 class="f3 f2-m f1-l fw2 black-90 mv3">
+            Veja a nossa nova coleção
+        </h1>
+        <h2 id="subtitulo-produtos" class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy">
+            Aplique o seu cupom do BLACK FRIDAY e ganhe até <span>50% de desconto</span> em todos os produtos exibidos
+            aqui
+        </h2>
+    </header>
+
+    <article class="cf">
+        <div class="fl w-50 w-25-ns">
+            <a href="#" class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Beyoncé" style="background-image:url('./img/produto_1.jpeg');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/99-9-KAYTRANADA/dp/B01D9DBNX2/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422105&sr=1-1&keywords=kaytranada+vinyl&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Kaytranada" style="background-image:url('./img/produto_2.jpeg');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/Woman-2LP-Set-Full-Album/dp/B01LX3E0ET/ref=sr_1_1?s=music&ie=UTF8&qid=1480422119&sr=1-1&keywords=justice&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Woman - Justice" style="background-image:url('./img/produto_3.jpeg');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/Skin-Flume/dp/B01DD5N35W/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422133&sr=1-1&keywords=flume&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Skin - Flume" style="background-image:url('./img/produto_4.png');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50">
+            <a href="https://www.amazon.com/Seat-at-Table-Solange/dp/B01LXP7I5N/ref=sr_tnr_p_1_195429011_1_twi_lp__3?s=music&ie=UTF8&qid=1480422087&sr=1-1&keywords=solange+seat+at+the+table&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Seat at Table Solange" style="background-image:url('./img/produto_5.png');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/untitled-unmastered-LP-Kendrick-Lamar/dp/B01DET9BV2/ref=sr_1_3_twi_lp__3?s=music&ie=UTF8&qid=1480370912&sr=1-3&keywords=kendrick+lamar&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Untitled Unmastered - Kendrick Lamar"
+                    style="background-image:url('./img/produto_6.png');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-100 w-25-ns">
+            <a href="https://www.amazon.com/Moon-Shaped-Pool-2-LP-Download/dp/B01FDF12UI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480370971&sr=1-1&keywords=moon+shaped+pool&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Moon Shaped Pool 2" style="background-image:url('./img/produto_7.jpeg');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/Colour-Anything-2-LP/dp/B01F8674B8/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371036&sr=1-1&keywords=color+in+anything&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Colour Anything 2" style="background-image:url('./img/produto_8.png');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+        <div class="fl w-50 w-25-ns">
+            <a href="https://www.amazon.com/Good-Luck-Do-Your-Best/dp/B01C3IHINI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480371123&sr=1-1&keywords=good+luck+gold+panda&tag=mrmrs01-20"
+                class="db aspect-ratio aspect-ratio--1x1 dim">
+                <span role="img" aria-label="Good Luck Do Your Best"
+                    style="background-image:url('./img/produto_9.png');"
+                    class="bg-center cover aspect-ratio--object"></span>
+            </a>
+        </div>
+    </article>
+
+    <!-- Footer Section -->
+    <!-- SVG Icons are from https://simpleicons.org -->
+    <footer class="pv4 ph3 ph5-ns tc">
+        <a class="link near-black hover-silver dib h2 w2 mr3" href="https://facebook.com title=" Facebook">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0"
+                    fill-rule="nonzero" />
+            </svg>
+        </a>
+        <a class="link hover-silver near-black dib h2 w2 mr3" href="https://instagram.com/mrmrs_" title="Instagram">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42c-.526.204-.973.478-1.417.923-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.72 1.417.923.51.198 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.852-.04 1.433-.174 1.942-.372.526-.204.973-.478 1.417-.923.445-.444.72-.89.923-1.417.198-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.417-.444-.445-.89-.72-1.417-.923-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.136 0 2.39.01 3.233.048.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.048 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.844.038-1.097.047-3.233.047s-2.39-.01-3.233-.048c-.78-.036-1.203-.166-1.485-.276-.374-.145-.64-.318-.92-.598-.28-.28-.453-.546-.598-.92-.11-.282-.24-.705-.276-1.485C1.45 10.39 1.44 10.136 1.44 8s.01-2.39.048-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276C5.61 1.45 5.864 1.44 8 1.44zm0 2.452c-2.27 0-4.108 1.84-4.108 4.108 0 2.27 1.84 4.108 4.108 4.108 2.27 0 4.108-1.84 4.108-4.108 0-2.27-1.84-4.108-4.108-4.108zm0 6.775c-1.473 0-2.667-1.194-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667 0 1.473-1.194 2.667-2.667 2.667zm5.23-6.937c0 .53-.43.96-.96.96s-.96-.43-.96-.96.43-.96.96-.96.96.43.96.96z" />
+            </svg>
+        </a>
+        <a class="link hover-silver near-black dib h2 w2 mr3" href="https://youtube.com title=" youtube">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M0 7.345c0-1.294.16-2.59.16-2.59s.156-1.1.636-1.587c.608-.637 1.408-.617 1.764-.684C3.84 2.36 8 2.324 8 2.324s3.362.004 5.6.166c.314.038.996.04 1.604.678.48.486.636 1.588.636 1.588S16 6.05 16 7.346v1.258c0 1.296-.16 2.59-.16 2.59s-.156 1.102-.636 1.588c-.608.638-1.29.64-1.604.678-2.238.162-5.6.166-5.6.166s-4.16-.037-5.44-.16c-.356-.067-1.156-.047-1.764-.684-.48-.487-.636-1.587-.636-1.587S0 9.9 0 8.605v-1.26zm6.348 2.73V5.58l4.323 2.255-4.32 2.24h-.002z" />
+            </svg>
+        </a>
+        <a class="link hover-silver near-black dib h2 w2 mr3" href="https://twitter.com/mrmrs_" title="Twitter">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z"
+                    fill-rule="nonzero" />
+            </svg>
+        </a>
+        <a class="link hover-silver near-black dib h2 w2 mr3" href="https://tumblr.com" title="Tumblr">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M9.708 16c-3.396 0-4.687-2.504-4.687-4.274V6.498H3.403V4.432C5.83 3.557 6.412 1.368 6.55.12c.01-.086.077-.12.115-.12H9.01v4.076h3.2v2.422H8.997v4.98c.01.667.25 1.58 1.472 1.58h.067c.424-.012.994-.136 1.29-.278l.77 2.283c-.288.424-1.594.916-2.77.936h-.12z"
+                    fill-rule="nonzero" />
+            </svg>
+        </a>
+    </footer>
+    <footer class="pv4 ph3 ph5-m ph6-l mid-gray avenir">
+        <small class="f6 db tc">© 2021 <b class="ttu">Luciano Pastine</b>, All Rights Reserved</small>
+        <div class="tc mt3">
+            <a href="#" title="Language" class="f6 dib ph2 link mid-gray dim">Language</a>
+            <a href="#" title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
+            <a href="#" title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
